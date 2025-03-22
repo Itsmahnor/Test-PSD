@@ -1,0 +1,62 @@
+{
+    "sourceFile": "src/App.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1740660052537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1740660058043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react';\n import ReactDOM from 'react-dom';\n-import './index.css'; // This line is important!\n+import './index.css'; \n import App from './App';\n \n ReactDOM.render(\n   <React.StrictMode>\n"
+                },
+                {
+                    "date": 1740660065301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,35 @@\n-import React from 'react';\n-import ReactDOM from 'react-dom';\n-import './index.css'; \n-import App from './App';\n+import { useState } from 'react'\n+import reactLogo from './assets/react.svg'\n+import viteLogo from '/vite.svg'\n+import './App.css'\n \n-ReactDOM.render(\n-  <React.StrictMode>\n-    <App />\n-  </React.StrictMode>,\n-  document.getElementById('root')\n-);\n+function App() {\n+  const [count, setCount] = useState(0)\n+\n+  return (\n+    <>\n+      <div>\n+        <a href=\"https://vite.dev\" target=\"_blank\">\n+          <img src={viteLogo} className=\"logo\" alt=\"Vite logo\" />\n+        </a>\n+        <a href=\"https://react.dev\" target=\"_blank\">\n+          <img src={reactLogo} className=\"logo react\" alt=\"React logo\" />\n+        </a>\n+      </div>\n+      <h1>Vite + React</h1>\n+      <div className=\"card\">\n+        <button onClick={() => setCount((count) => count + 1)}>\n+          count is {count}\n+        </button>\n+        <p>\n+          Edit <code>src/App.jsx</code> and save to test HMR\n+        </p>\n+      </div>\n+      <p className=\"read-the-docs\">\n+        Click on the Vite and React logos to learn more\n+      </p>\n+    </>\n+  )\n+}\n+\n+export default App\n"
+                },
+                {
+                    "date": 1740660114447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   const [count, setCount] = useState(0)\n \n   return (\n     <>\n-      <div>\n+      <div className='bg-black'>\n         <a href=\"https://vite.dev\" target=\"_blank\">\n           <img src={viteLogo} className=\"logo\" alt=\"Vite logo\" />\n         </a>\n         <a href=\"https://react.dev\" target=\"_blank\">\n"
+                },
+                {
+                    "date": 1740660139118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { useState } from 'react'\n import reactLogo from './assets/react.svg'\n import viteLogo from '/vite.svg'\n-import './App.css'\n \n+\n function App() {\n   const [count, setCount] = useState(0)\n \n   return (\n"
+                },
+                {
+                    "date": 1740806978529,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,28 +7,9 @@\n   const [count, setCount] = useState(0)\n \n   return (\n     <>\n-      <div className='bg-black'>\n-        <a href=\"https://vite.dev\" target=\"_blank\">\n-          <img src={viteLogo} className=\"logo\" alt=\"Vite logo\" />\n-        </a>\n-        <a href=\"https://react.dev\" target=\"_blank\">\n-          <img src={reactLogo} className=\"logo react\" alt=\"React logo\" />\n-        </a>\n-      </div>\n-      <h1>Vite + React</h1>\n-      <div className=\"card\">\n-        <button onClick={() => setCount((count) => count + 1)}>\n-          count is {count}\n-        </button>\n-        <p>\n-          Edit <code>src/App.jsx</code> and save to test HMR\n-        </p>\n-      </div>\n-      <p className=\"read-the-docs\">\n-        Click on the Vite and React logos to learn more\n-      </p>\n+    \n     </>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1740806985523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,16 @@\n import { useState } from 'react'\n import reactLogo from './assets/react.svg'\n import viteLogo from '/vite.svg'\n+import { Header } from './Components/Header/Header'\n \n \n function App() {\n   const [count, setCount] = useState(0)\n \n   return (\n     <>\n-    \n+    <Header />\n     </>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1740807041033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { useState } from 'react'\n import reactLogo from './assets/react.svg'\n import viteLogo from '/vite.svg'\n-import { Header } from './Components/Header/Header'\n+import { Header } from './Components/Header/TopNav'\n \n \n function App() {\n   const [count, setCount] = useState(0)\n"
+                },
+                {
+                    "date": 1740810156254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,19 @@\n import { useState } from 'react'\n import reactLogo from './assets/react.svg'\n import viteLogo from '/vite.svg'\n import { Header } from './Components/Header/TopNav'\n+import Navbar from './Components/Header/BottomNav'\n \n \n function App() {\n   const [count, setCount] = useState(0)\n \n   return (\n     <>\n     <Header />\n+    <Navbar />\n+\n     </>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1741074119816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n import reactLogo from './assets/react.svg'\n import viteLogo from '/vite.svg'\n import { Header } from './Components/Header/TopNav'\n import Navbar from './Components/Header/BottomNav'\n+import { Home } from './Components/Header/Home'\n \n \n function App() {\n   const [count, setCount] = useState(0)\n@@ -11,8 +12,9 @@\n   return (\n     <>\n     <Header />\n     <Navbar />\n+    <Home />\n \n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1741074125102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n import { Home } from './Components/Header/Home'\n \n \n function App() {\n-  const [count, setCount] = useState(0)\n+ \n \n   return (\n     <>\n     <Header />\n"
+                },
+                {
+                    "date": 1741097926662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,24 @@\n+import { useState } from 'react'\n+import reactLogo from './assets/react.svg'\n+import viteLogo from '/vite.svg'\n+import { Header } from './Components/Header/TopNav'\n+import Navbar from './Components/Header/BottomNav'\n+import { Home } from './Components/Header/Home'\n+import { Hero } from './Components/Hero/Hero'\n+\n+\n+function App() {\n+ \n+\n+  return (\n+    <>\n+    <Header />\n+    <Navbar />\n+    <Home />\n+    <Hero />\n+\n+    </>\n+  )\n+}\n+\n+export default App\n"
+                }
+            ],
+            "date": 1740660052537,
+            "name": "Commit-0",
+            "content": "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport './index.css'; // This line is important!\nimport App from './App';\n\nReactDOM.render(\n  <React.StrictMode>\n    <App />\n  </React.StrictMode>,\n  document.getElementById('root')\n);\n"
+        }
+    ]
+}

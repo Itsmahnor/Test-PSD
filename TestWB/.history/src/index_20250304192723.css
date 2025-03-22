@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* responsiveness */
+body{
+  overflow-x: hidden;
+}
+@media (max-width:1389px) {
+  .handleresize {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+@media (max-width:880px) {
+  .font {
+    font-size: 20px !important;
+  }
+}

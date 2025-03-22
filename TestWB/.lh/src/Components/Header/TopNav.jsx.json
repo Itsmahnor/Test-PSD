@@ -1,0 +1,390 @@
+{
+    "sourceFile": "src/Components/Header/TopNav.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 93,
+            "patches": [
+                {
+                    "date": 1740807037258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1740807081411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div>Header</div>\r\n+    <div>TopNav</div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807179236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div>TopNav</div>\r\n+    <div>\r\n+      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <A>WATCH NOW</A></p>\r\n+    </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807195228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div>\r\n-      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <A>WATCH NOW</A></p>\r\n+      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807211547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div>\r\n-      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a>WATCH NOW</a></p>\r\n+      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\">WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807219837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div>\r\n+    <div className='bg-white'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\">WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807229643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-white'>\r\n+    <div className='bg-white font-[30px]'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\">WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807245171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white font-[30px]'>\r\n-      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\">WATCH NOW</a></p>\r\n+      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-500'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807273544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white font-[30px]'>\r\n-      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-500'>WATCH NOW</a></p>\r\n+      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-500 border-b-4'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807284783,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white font-[30px]'>\r\n-      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-500 border-b-4'>WATCH NOW</a></p>\r\n+      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-500 border-b-4 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807294162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white font-[30px]'>\r\n-      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-500 border-b-4 border-green-300'>WATCH NOW</a></p>\r\n+      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-500 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807309673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-white font-[30px]'>\r\n+    <div className='bg-white font-[30px] h-[3rem]'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-500 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807319491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-white font-[30px] h-[3rem]'>\r\n+    <div className='bg-green-200 font-[30px] h-[3rem]'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-500 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807334761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-green-200 font-[30px] h-[3rem]'>\r\n+    <div className='bg-green-200 font-[30px] h-[3rem] flex justify-center items-center'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-500 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807354898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-green-200 font-[30px] h-[3rem] flex justify-center items-center'>\r\n+    <div className='bg-white font-[30px] h-[3rem] flex justify-center items-center'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-500 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807459756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white font-[30px] h-[3rem] flex justify-center items-center'>\r\n-      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-500 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n+      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-900 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807470222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white font-[30px] h-[3rem] flex justify-center items-center'>\r\n-      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-900 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n+      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-700 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807481147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white font-[30px] h-[3rem] flex justify-center items-center'>\r\n-      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-700 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n+      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-800 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807492056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white font-[30px] h-[3rem] flex justify-center items-center'>\r\n-      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-800 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n+      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807502028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-white font-[30px] h-[3rem] flex justify-center items-center'>\r\n+    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807521769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center'>\r\n+    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center font-serif'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807537129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center font-serif'>\r\n+    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center font-mono'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807547682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center font-mono'>\r\n+    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center '>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807564138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center '>\r\n+    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center font-medium '>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807571872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center font-medium '>\r\n+    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center  '>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807594809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center  '>\r\n+    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center font-normal '>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807604623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center font-normal '>\r\n+    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center font-semibold '>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740807612773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-white font-[20px] h-[3rem] flex justify-center items-center font-semibold '>\r\n+    <div className='bg-white  h-[3rem] flex justify-center items-center font-semibold '>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740808106620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-white  h-[3rem] flex justify-center items-center font-semibold '>\r\n+    <div className='bg-white  h-[3rem] flex justify-center items-center font-semibold'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n+      <p className='w-[5px] h-[5px] '></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740808132955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white  h-[3rem] flex justify-center items-center font-semibold'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n-      <p className='w-[5px] h-[5px] '></p>\r\n+      <p className='w-[5px] h-[5px] bg-green-600 text-black'></p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740808146442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white  h-[3rem] flex justify-center items-center font-semibold'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n-      <p className='w-[5px] h-[5px] bg-green-600 text-black'></p>\r\n+      <p className='w-[5px] h-[5px] bg-green-600 text-black'>c</p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740808174123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white  h-[3rem] flex justify-center items-center font-semibold'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n-      <p className='w-[5px] h-[5px] bg-green-600 text-black'>c</p>\r\n+      <p className='w-[5px] h-[5px] bg-green-600 text-black justify-end'>c</p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740808185386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white  h-[3rem] flex justify-center items-center font-semibold'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n-      <p className='w-[5px] h-[5px] bg-green-600 text-black justify-end'>c</p>\r\n+      <p className='w-[5px] h-[5px] bg-green-600 text-black justify-self-end'>c</p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740808197480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-white  h-[3rem] flex justify-center items-center font-semibold'>\r\n+    <div className='bg-white  h-[3rem] flex justify-center items-center font-semibold w-100'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n       <p className='w-[5px] h-[5px] bg-green-600 text-black justify-self-end'>c</p>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1740808208596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white  h-[3rem] flex justify-center items-center font-semibold w-100'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n-      <p className='w-[5px] h-[5px] bg-green-600 text-black justify-self-end'>c</p>\r\n+      <p className='w-[15px] h-[15px] bg-green-600 text-black justify-self-end'>c</p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740808223841,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white  h-[3rem] flex justify-center items-center font-semibold w-100'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n-      <p className='w-[15px] h-[15px] bg-green-600 text-black justify-self-end'>c</p>\r\n+      <p className='w-[15px] h-[15px] bg-green-600 text-black justify-self-end flex justify-center items-center'>c</p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740808240506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white  h-[3rem] flex justify-center items-center font-semibold w-100'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n-      <p className='w-[15px] h-[15px] bg-green-600 text-black justify-self-end flex justify-center items-center'>c</p>\r\n+      <p className='w-[15px] h-[15px] bg-green-600 text-black justify-self-end items-end flex justify-center items-center'>c</p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740808246775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n export const Header = () => {\r\n   return (\r\n     <div className='bg-white  h-[3rem] flex justify-center items-center font-semibold w-100'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n-      <p className='w-[15px] h-[15px] bg-green-600 text-black justify-self-end items-end flex justify-center items-center'>c</p>\r\n+      <p className='w-[15px] h-[15px] bg-green-600 text-black justify-self-end  flex justify-center items-center'>c</p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740808259950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-white  h-[3rem] flex justify-center items-center font-semibold w-100'>\r\n+    <div className='bg-pink-400  h-[3rem] flex justify-center items-center font-semibold w-100'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n       <p className='w-[15px] h-[15px] bg-green-600 text-black justify-self-end  flex justify-center items-center'>c</p>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1740808273630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-pink-400  h-[3rem] flex justify-center items-center font-semibold w-100'>\r\n+    <div className='bg-pink-400  h-[3rem] flex  items-center font-semibold w-100'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n       <p className='w-[15px] h-[15px] bg-green-600 text-black justify-self-end  flex justify-center items-center'>c</p>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1740808280528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-pink-400  h-[3rem] flex  items-center font-semibold w-100'>\r\n+    <div className='bg-pink-400  h-[3rem] flex justify-center items-center font-semibold w-100'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n       <p className='w-[15px] h-[15px] bg-green-600 text-black justify-self-end  flex justify-center items-center'>c</p>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1740808286354,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-pink-400  h-[3rem] flex justify-center items-center font-semibold w-100'>\r\n+    <div className='bg-pink-400  h-[3rem] flex items-center font-semibold w-100'>\r\n       <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n       <p className='w-[15px] h-[15px] bg-green-600 text-black justify-self-end  flex justify-center items-center'>c</p>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1740808310782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className='bg-pink-400  h-[3rem] flex items-center font-semibold w-100'>\r\n-      <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n+      <p className='justify-self-center'>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n       <p className='w-[15px] h-[15px] bg-green-600 text-black justify-self-end  flex justify-center items-center'>c</p>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1740808397265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,15 @@\n-import React from 'react'\r\n+import React from 'react';\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className='bg-pink-400  h-[3rem] flex items-center font-semibold w-100'>\r\n-      <p className='justify-self-center'>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA,FL / <a href=\"#\" className='text-green-600 border-b-2 border-green-300'>WATCH NOW</a></p>\r\n-      <p className='w-[15px] h-[15px] bg-green-600 text-black justify-self-end  flex justify-center items-center'>c</p>\r\n+    <div className=\"bg-pink-400 h-[3rem] flex items-center justify-between font-semibold w-full px-4\">\r\n+      <p className=\"text-center\">\r\n+        LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n+        <a href=\"#\" className=\"text-green-600 border-b-2 border-green-300 ml-1\">WATCH NOW</a>\r\n+      </p>\r\n+      <p className=\"w-[20px] h-[20px] bg-green-600 text-black flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n+        ✖\r\n+      </p>\r\n     </div>\r\n-  )\r\n-}\r\n+  );\r\n+};\r\n"
+                },
+                {
+                    "date": 1740808425783,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\r\n     <div className=\"bg-pink-400 h-[3rem] flex items-center justify-between font-semibold w-full px-4\">\r\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n-        <a href=\"#\" className=\"text-green-600 border-b-2 border-green-300 ml-1\">WATCH NOW</a>\r\n+        <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n       <p className=\"w-[20px] h-[20px] bg-green-600 text-black flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n         ✖\r\n       </p>\r\n"
+                },
+                {
+                    "date": 1740808459264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react';\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className=\"bg-pink-400 h-[3rem] flex items-center justify-between font-semibold w-full px-4\">\r\n+    <div className=\"bg-pink-400 h-[3rem] flex items-center  font-semibold w-full px-4\">\r\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n"
+                },
+                {
+                    "date": 1740808478540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n import React from 'react';\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className=\"bg-pink-400 h-[3rem] flex items-center  font-semibold w-full px-4\">\r\n+    <div className=\"bg-pink-400 h-[3rem] flex items-center justify-between font-semibold w-full px-4\">\r\n+      <p></p>\r\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n"
+                },
+                {
+                    "date": 1740808507182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n-      <p className=\"w-[20px] h-[20px] bg-green-600 text-black flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n+      <p className=\"w-[20px] h-[20px] bg-green-600 text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n         ✖\r\n       </p>\r\n     </div>\r\n   );\r\n"
+                },
+                {
+                    "date": 1740808532147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n-      <p className=\"w-[20px] h-[20px] bg-green-600 text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n+      <p className=\"w-[20px] h-[20px] bg-green-600 text-[5px] text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n         ✖\r\n       </p>\r\n     </div>\r\n   );\r\n"
+                },
+                {
+                    "date": 1740808539794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n-      <p className=\"w-[20px] h-[20px] bg-green-600 text-[5px] text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n+      <p className=\"w-[20px] h-[20px] bg-green-600 text-[10px] text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n         ✖\r\n       </p>\r\n     </div>\r\n   );\r\n"
+                },
+                {
+                    "date": 1740808605823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react';\r\n-\r\n+import { RxCross1 } from \"react-icons/rx\";\r\n export const Header = () => {\r\n   return (\r\n     <div className=\"bg-pink-400 h-[3rem] flex items-center justify-between font-semibold w-full px-4\">\r\n       <p></p>\r\n@@ -8,9 +8,9 @@\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n       <p className=\"w-[20px] h-[20px] bg-green-600 text-[10px] text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n-        ✖\r\n+      \r\n       </p>\r\n     </div>\r\n   );\r\n };\r\n"
+                },
+                {
+                    "date": 1740808615683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n       <p className=\"w-[20px] h-[20px] bg-green-600 text-[10px] text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n-      \r\n+       <RxCross1 />\r\n       </p>\r\n     </div>\r\n   );\r\n };\r\n"
+                },
+                {
+                    "date": 1740808639638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react';\r\n import { RxCross1 } from \"react-icons/rx\";\r\n export const Header = () => {\r\n   return (\r\n-    <div className=\"bg-pink-400 h-[3rem] flex items-center justify-between font-semibold w-full px-4\">\r\n+    <div className=\"bg-pink-400 h-auto flex items-center justify-between font-semibold w-full px-4\">\r\n       <p></p>\r\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n"
+                },
+                {
+                    "date": 1740808650385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n-      <p className=\"w-[20px] h-[20px] bg-green-600 text-[10px] text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n+      <p className=\"md:w-[20px] h-[20px] bg-green-600 text-[10px] text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n        <RxCross1 />\r\n       </p>\r\n     </div>\r\n   );\r\n"
+                },
+                {
+                    "date": 1740808656439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n-      <p className=\"md:w-[20px] h-[20px] bg-green-600 text-[10px] text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n+      <p className=\"w-[20px] h-[20px] bg-green-600 text-[10px] text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n        <RxCross1 />\r\n       </p>\r\n     </div>\r\n   );\r\n"
+                },
+                {
+                    "date": 1740808693217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { RxCross1 } from \"react-icons/rx\";\r\n export const Header = () => {\r\n   return (\r\n     <div className=\"bg-pink-400 h-auto flex items-center justify-between font-semibold w-full px-4\">\r\n-      <p></p>\r\n+      <p className='md:hidden'></p>\r\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n"
+                },
+                {
+                    "date": 1740808717817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react';\r\n import { RxCross1 } from \"react-icons/rx\";\r\n export const Header = () => {\r\n   return (\r\n-    <div className=\"bg-pink-400 h-auto flex items-center justify-between font-semibold w-full px-4\">\r\n+    <div className=\"bg-pink-400 h-auto md:h-[30px] flex items-center justify-between font-semibold w-full px-4\">\r\n       <p className='md:hidden'></p>\r\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n"
+                },
+                {
+                    "date": 1740808725871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react';\r\n import { RxCross1 } from \"react-icons/rx\";\r\n export const Header = () => {\r\n   return (\r\n-    <div className=\"bg-pink-400 h-auto md:h-[30px] flex items-center justify-between font-semibold w-full px-4\">\r\n+    <div className=\" h-auto md:h-[30px] flex items-center justify-between font-semibold w-full px-4\">\r\n       <p className='md:hidden'></p>\r\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n"
+                },
+                {
+                    "date": 1740808747815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react';\r\n import { RxCross1 } from \"react-icons/rx\";\r\n export const Header = () => {\r\n   return (\r\n-    <div className=\" h-auto md:h-[30px] flex items-center justify-between font-semibold w-full px-4\">\r\n+    <div className=\" h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full px-4\">\r\n       <p className='md:hidden'></p>\r\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n"
+                },
+                {
+                    "date": 1740808760660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { RxCross1 } from \"react-icons/rx\";\r\n export const Header = () => {\r\n   return (\r\n     <div className=\" h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full px-4\">\r\n-      <p className='md:hidden'></p>\r\n+      {/* <p className='md:hidden'></p> */}\r\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n"
+                },
+                {
+                    "date": 1740808768928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { RxCross1 } from \"react-icons/rx\";\r\n export const Header = () => {\r\n   return (\r\n     <div className=\" h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full px-4\">\r\n-      {/* <p className='md:hidden'></p> */}\r\n+      <p className='md:hidden'></p>\r\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n"
+                },
+                {
+                    "date": 1740808788336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react';\r\n import { RxCross1 } from \"react-icons/rx\";\r\n export const Header = () => {\r\n   return (\r\n-    <div className=\" h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full px-4\">\r\n+    <div className=\" h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1\" >\r\n       <p className='md:hidden'></p>\r\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n"
+                },
+                {
+                    "date": 1740808804297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n-      <p className=\"w-[20px] h-[20px] bg-green-600 text-[10px] text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n+      <p className=\"md:w-[20px] h-[20px] bg-green-600 text-[10px] text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n        <RxCross1 />\r\n       </p>\r\n     </div>\r\n   );\r\n"
+                },
+                {
+                    "date": 1740808828245,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,15 @@\n import React from 'react';\r\n import { RxCross1 } from \"react-icons/rx\";\r\n export const Header = () => {\r\n   return (\r\n-    <div className=\" h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1\" >\r\n+    <div className=\" h-auto md:h-[30px] flex items-center justify-between gap-2 md:font-semibold w-full md:px-4 px-1\" >\r\n       <p className='md:hidden'></p>\r\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n-      <p className=\"md:w-[20px] h-[20px] bg-green-600 text-[10px] text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n+      <p className=\"w-[20px] h-[20px] bg-green-600 text-[10px] text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n        <RxCross1 />\r\n       </p>\r\n     </div>\r\n   );\r\n"
+                },
+                {
+                    "date": 1740808833445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react';\r\n import { RxCross1 } from \"react-icons/rx\";\r\n export const Header = () => {\r\n   return (\r\n-    <div className=\" h-auto md:h-[30px] flex items-center justify-between gap-2 md:font-semibold w-full md:px-4 px-1\" >\r\n+    <div className=\" h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1\" >\r\n       <p className='md:hidden'></p>\r\n       <p className=\"text-center\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n"
+                },
+                {
+                    "date": 1740808840901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n export const Header = () => {\r\n   return (\r\n     <div className=\" h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1\" >\r\n       <p className='md:hidden'></p>\r\n-      <p className=\"text-center\">\r\n+      <p className=\"text-center font-[10px]\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n       </p>\r\n       <p className=\"w-[20px] h-[20px] bg-green-600 text-[10px] text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n"
+                },
+                {
+                    "date": 1740808897450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,21 @@\n import React from 'react';\r\n import { RxCross1 } from \"react-icons/rx\";\r\n+\r\n export const Header = () => {\r\n   return (\r\n-    <div className=\" h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1\" >\r\n-      <p className='md:hidden'></p>\r\n-      <p className=\"text-center font-[10px]\">\r\n-        LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / \r\n-        <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">WATCH NOW</a>\r\n+    <div className=\"h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1\">\r\n+      {/* Text */}\r\n+      <p className=\"text-center text-xs md:text-sm\">\r\n+        LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n+        <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">\r\n+          WATCH NOW\r\n+        </a>\r\n       </p>\r\n-      <p className=\"w-[20px] h-[20px] bg-green-600 text-[10px] text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n-       <RxCross1 />\r\n-      </p>\r\n+\r\n+      {/* Close Button */}\r\n+      <button className=\"w-5 h-5 bg-green-600 text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n+        <RxCross1 size={12} />\r\n+      </button>\r\n     </div>\r\n   );\r\n };\r\n"
+                },
+                {
+                    "date": 1740808920542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className=\"h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1\">\r\n+      <p></p>\r\n       {/* Text */}\r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">\r\n"
+                },
+                {
+                    "date": 1740808961144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         </a>\r\n       </p>\r\n \r\n       {/* Close Button */}\r\n-      <button className=\"w-5 h-5 bg-green-600 text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n+      <button className=\" bg-green-600 text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n         <RxCross1 size={12} />\r\n       </button>\r\n     </div>\r\n   );\r\n"
+                },
+                {
+                    "date": 1740808967523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         </a>\r\n       </p>\r\n \r\n       {/* Close Button */}\r\n-      <button className=\" bg-green-600 text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n+      <button className=\"p-2 bg-green-600 text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n         <RxCross1 size={12} />\r\n       </button>\r\n     </div>\r\n   );\r\n"
+                },
+                {
+                    "date": 1740808979444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         </a>\r\n       </p>\r\n \r\n       {/* Close Button */}\r\n-      <button className=\"p-2 bg-green-600 text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n+      <button className=\"p-1 bg-green-600 text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n         <RxCross1 size={12} />\r\n       </button>\r\n     </div>\r\n   );\r\n"
+                },
+                {
+                    "date": 1740809072201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n           WATCH NOW\r\n         </a>\r\n       </p>\r\n \r\n-      {/* Close Button */}\r\n+ \r\n       <button className=\"p-1 bg-green-600 text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n         <RxCross1 size={12} />\r\n       </button>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1740809103743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,11 @@\n import { RxCross1 } from \"react-icons/rx\";\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className=\"h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1\">\r\n+    <div className=\"h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1 sm:h-[30px]\">\r\n       <p></p>\r\n-      {/* Text */}\r\n+     \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">\r\n           WATCH NOW\r\n"
+                },
+                {
+                    "date": 1740809115758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { RxCross1 } from \"react-icons/rx\";\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className=\"h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1 sm:h-[30px]\">\r\n+    <div className=\"h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1 h-[30px]\">\r\n       <p></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n"
+                },
+                {
+                    "date": 1740809123752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { RxCross1 } from \"react-icons/rx\";\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className=\"h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1 h-[30px]\">\r\n+    <div className=\"h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1 sm:h-[30px]\">\r\n       <p></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n"
+                },
+                {
+                    "date": 1740809141516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { RxCross1 } from \"react-icons/rx\";\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className=\"h-auto md:h-[30px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1 sm:h-[30px]\">\r\n+    <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1 sm:h-[30px] pt-2\">\r\n       <p></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n"
+                },
+                {
+                    "date": 1740809233336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { RxCross1 } from \"react-icons/rx\";\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-semibold w-full md:px-4 px-1 sm:h-[30px] pt-2\">\r\n+    <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full md:px-4 px-1 sm:h-[30px] pt-2\">\r\n       <p></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n"
+                },
+                {
+                    "date": 1740809270795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { RxCross1 } from \"react-icons/rx\";\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full md:px-4 px-1 sm:h-[30px] pt-2\">\r\n+    <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] pt-2\">\r\n       <p></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n"
+                },
+                {
+                    "date": 1740809324204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { RxCross1 } from \"react-icons/rx\";\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] pt-2\">\r\n+    <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  sm:h-[30px] pt-2\">\r\n       <p></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n"
+                },
+                {
+                    "date": 1740809329630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { RxCross1 } from \"react-icons/rx\";\r\n \r\n export const Header = () => {\r\n   return (\r\n-    <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  sm:h-[30px] pt-2\">\r\n+    <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] pt-2\">\r\n       <p></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n"
+                },
+                {
+                    "date": 1740809345512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] pt-2\">\r\n-      <p></p>\r\n+      <p className='sm:hidden'></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">\r\n"
+                },
+                {
+                    "date": 1740809363266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] pt-2\">\r\n-      <p className='sm:hidden'></p>\r\n+      <p className='md:hidden'></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">\r\n"
+                },
+                {
+                    "date": 1740809392303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] pt-2\">\r\n-      <p className='md:hidden'></p>\r\n+      <p className='sm:hidden'></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">\r\n"
+                },
+                {
+                    "date": 1740809407613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] pt-2\">\r\n-      <p className='sm:hidden'></p>\r\n+      <p className=''></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">\r\n"
+                },
+                {
+                    "date": 1740809417353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] pt-2\">\r\n-      <p className=''></p>\r\n+      <p className='sm:hidden'></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">\r\n"
+                },
+                {
+                    "date": 1740809429032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export const Header = () => {\r\n   return (\r\n     <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] pt-2\">\r\n-      <p className='sm:hidden'></p>\r\n+      <p className=''></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">\r\n"
+                },
+                {
+                    "date": 1740809549826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,13 @@\n-import React from 'react';\r\n+import React, { useState } from 'react';\r\n import { RxCross1 } from \"react-icons/rx\";\r\n \r\n export const Header = () => {\r\n+  // to control visibility of topnav\r\n+ const[first,setfirst]= useState(false)\r\n   return (\r\n     <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] pt-2\">\r\n-      <p className=''></p>\r\n+      <p ></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n         <a href=\"#\" className=\"text-green-600 border-b-2 border-green-600 ml-1\">\r\n"
+                },
+                {
+                    "date": 1740809600646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         </a>\r\n       </p>\r\n \r\n  \r\n-      <button className=\"p-1 bg-green-600 text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\">\r\n+      <button className=\"p-1 bg-green-600 text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\" onClick={()=>{setfirst(prev=> !prev)}}>\r\n         <RxCross1 size={12} />\r\n       </button>\r\n     </div>\r\n   );\r\n"
+                },
+                {
+                    "date": 1740809658764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,10 @@\n export const Header = () => {\r\n   // to control visibility of topnav\r\n  const[first,setfirst]= useState(false)\r\n   return (\r\n+    <>\r\n+    {first && (\r\n     <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] pt-2\">\r\n       <p ></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n@@ -18,7 +20,8 @@\n  \r\n       <button className=\"p-1 bg-green-600 text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\" onClick={()=>{setfirst(prev=> !prev)}}>\r\n         <RxCross1 size={12} />\r\n       </button>\r\n-    </div>\r\n+    </div>)}\r\n+    </>\r\n   );\r\n };\r\n"
+                },
+                {
+                    "date": 1740809668174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { RxCross1 } from \"react-icons/rx\";\r\n \r\n export const Header = () => {\r\n   // to control visibility of topnav\r\n- const[first,setfirst]= useState(false)\r\n+ const[first,setfirst]= useState(true)\r\n   return (\r\n     <>\r\n     {first && (\r\n     <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] pt-2\">\r\n"
+                },
+                {
+                    "date": 1740809886626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n  const[first,setfirst]= useState(true)\r\n   return (\r\n     <>\r\n     {first && (\r\n-    <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] pt-2\">\r\n+    <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] pt-2 static\">\r\n       <p ></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n"
+                },
+                {
+                    "date": 1740809946289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,15 @@\n           WATCH NOW\r\n         </a>\r\n       </p>\r\n \r\n- \r\n+      <button className=\"bg-white text-[#04211e] font-bold px-3 py-1 rounded-md transition duration-300 hover:bg-[#04211e] hover:text-white\">\r\n+  Membership\r\n+</button>\r\n+<button className=\"bg-white text-[#04211e] font-bold px-3 py-1 rounded-md transition duration-300 hover:bg-[#04211e] hover:text-white\">\r\n+  Account\r\n+</button>\r\n+\r\n       <button className=\"p-1 bg-green-600 text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\" onClick={()=>{setfirst(prev=> !prev)}}>\r\n         <RxCross1 size={12} />\r\n       </button>\r\n     </div>)}\r\n"
+                },
+                {
+                    "date": 1740809960078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,15 +16,9 @@\n           WATCH NOW\r\n         </a>\r\n       </p>\r\n \r\n-      <button className=\"bg-white text-[#04211e] font-bold px-3 py-1 rounded-md transition duration-300 hover:bg-[#04211e] hover:text-white\">\r\n-  Membership\r\n-</button>\r\n-<button className=\"bg-white text-[#04211e] font-bold px-3 py-1 rounded-md transition duration-300 hover:bg-[#04211e] hover:text-white\">\r\n-  Account\r\n-</button>\r\n-\r\n+ \r\n       <button className=\"p-1 bg-green-600 text-white flex justify-center items-center rounded-full text-sm font-bold cursor-pointer\" onClick={()=>{setfirst(prev=> !prev)}}>\r\n         <RxCross1 size={12} />\r\n       </button>\r\n     </div>)}\r\n"
+                },
+                {
+                    "date": 1740810855001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n  const[first,setfirst]= useState(true)\r\n   return (\r\n     <>\r\n     {first && (\r\n-    <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] pt-2 static\">\r\n+    <div className=\"h-auto md:h-[40px] flex items-center justify-between gap-2 font-bold w-full  px-1 sm:h-[30px] py-2 static\">\r\n       <p ></p>\r\n      \r\n       <p className=\"text-center text-xs md:text-sm\">\r\n         LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /\r\n"
+                }
+            ],
+            "date": 1740807037258,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nexport const Header = () => {\r\n  return (\r\n    <div>Header</div>\r\n  )\r\n}\r\n"
+        }
+    ]
+}

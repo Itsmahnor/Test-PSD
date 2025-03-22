@@ -1,0 +1,50 @@
+{
+    "sourceFile": "src/Components/MainCompo/MainCompo.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1741081934860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1741081968700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react'\r\n \r\n-export const MainCompo = () => {\r\n+export const MainCompo = ({item}) => {\r\n   return (\r\n-    <div>MainCompo</div>\r\n+    <div className='flex items-center justify-between md:space-x-4 p-4 bg-green-950 md:px-44  gap-5 handleresize'>MainCompo</div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1741081974616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n import React from 'react'\r\n \r\n export const MainCompo = ({item}) => {\r\n   return (\r\n-    <div className='flex items-center justify-between md:space-x-4 p-4 bg-green-950 md:px-44  gap-5 handleresize'>MainCompo</div>\r\n+    <div className='flex items-center justify-between md:space-x-4 p-4 bg-green-950 md:px-44  gap-5 handleresize'>\r\n+      \r\n+    </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1741081995020,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n-export const MainCompo = ({item}) => {\r\n+export const MainCompo = (item) => {\r\n   return (\r\n     <div className='flex items-center justify-between md:space-x-4 p-4 bg-green-950 md:px-44  gap-5 handleresize'>\r\n-      \r\n+    {item}\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1741082126501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react'\r\n \r\n-export const MainCompo = (item) => {\r\n+export const MainCompo = ({item}) => {\r\n   return (\r\n     <div className='flex items-center justify-between md:space-x-4 p-4 bg-green-950 md:px-44  gap-5 handleresize'>\r\n     {item}\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1741082161556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const MainCompo = ({item}) => {\r\n   return (\r\n-    <div className='flex items-center justify-between md:space-x-4 p-4 bg-green-950 md:px-44  gap-5 handleresize'>\r\n+    <div className='flex items-center justify-between md:space-x-4 p-4  md:px-44  gap-5 handleresize'>\r\n     {item}\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1741082616266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n-export const MainCompo = ({item}) => {\r\n+export const MainCompo = ({children}) => {\r\n   return (\r\n     <div className='flex items-center justify-between md:space-x-4 p-4  md:px-44  gap-5 handleresize'>\r\n-    {item}\r\n+    {children}\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1741085607293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const MainCompo = ({children}) => {\r\n   return (\r\n-    <div className='flex items-center justify-between md:space-x-4 p-4  md:px-44  gap-5 handleresize'>\r\n+    <div className='flex  justify-between md:space-x-4 p-4  md:px-44  gap-5 handleresize'>\r\n     {children}\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1741085616898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n export const MainCompo = ({children}) => {\r\n   return (\r\n-    <div className='flex  justify-between md:space-x-4 p-4  md:px-44  gap-5 handleresize'>\r\n+    <div className='flex  md:space-x-4 p-4  md:px-44  gap-5 handleresize'>\r\n     {children}\r\n     </div>\r\n   )\r\n }\r\n"
+                }
+            ],
+            "date": 1741081934860,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nexport const MainCompo = () => {\r\n  return (\r\n    <div>MainCompo</div>\r\n  )\r\n}\r\n"
+        }
+    ]
+}
