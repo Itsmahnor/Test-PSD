@@ -23,7 +23,7 @@ export default function DiagonalCards() {
           {/* Image portion (with diagonal) */}
           <div className="md:w-1/2 relative">
             <img
-              src={bgImage} // replace with your path
+              src={bgImage} 
               alt="some alt"
               className="w-full h-full object-cover"
               style={mobileView?{
@@ -70,7 +70,7 @@ export default function DiagonalCards() {
           {/* Image portion (with diagonal) */}
           <div className="md:w-1/2 relative order-1 md:order-2">
             <img
-              src={bgImage1} // replace with your path
+              src={bgImage1} 
               alt="some alt"
               className="w-full h-full object-cover"
               
